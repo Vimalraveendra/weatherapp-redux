@@ -12,7 +12,6 @@ const API_KEY= process.env.REACT_APP_API_KEY
 
 const mapStateToProps=(state)=>{
   return{ 
-          
          temperature:state.temperature,
           humidity:state.humidity,
           city:state.city,
