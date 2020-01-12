@@ -9,12 +9,14 @@ const WeatherForm = ({ getWeatherApi }) => {
           name="city"
           placeholder="Enter the city"
           className="formSearch-input"
+          autoComplete="off"
         />
         <input
           type="text"
           name="country"
           placeholder="Enter the country"
           className="formSearch-input"
+          autoComplete="off"
         />
         <button type="submit" className="formSearch-button">
           Get Weather
