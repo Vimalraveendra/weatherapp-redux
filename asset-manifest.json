@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/weatherapp-redux/static/css/main.6f7b4e3e.chunk.css",
-    "main.js": "/weatherapp-redux/static/js/main.4e3b9f40.chunk.js",
-    "main.js.map": "/weatherapp-redux/static/js/main.4e3b9f40.chunk.js.map",
+    "main.css": "/weatherapp-redux/static/css/main.8822f6f7.chunk.css",
+    "main.js": "/weatherapp-redux/static/js/main.5abf9239.chunk.js",
+    "main.js.map": "/weatherapp-redux/static/js/main.5abf9239.chunk.js.map",
     "runtime~main.js": "/weatherapp-redux/static/js/runtime~main.6ec1b665.js",
     "runtime~main.js.map": "/weatherapp-redux/static/js/runtime~main.6ec1b665.js.map",
-    "static/js/2.7f6d6c35.chunk.js": "/weatherapp-redux/static/js/2.7f6d6c35.chunk.js",
-    "static/js/2.7f6d6c35.chunk.js.map": "/weatherapp-redux/static/js/2.7f6d6c35.chunk.js.map",
+    "static/js/2.2770f093.chunk.js": "/weatherapp-redux/static/js/2.2770f093.chunk.js",
+    "static/js/2.2770f093.chunk.js.map": "/weatherapp-redux/static/js/2.2770f093.chunk.js.map",
     "index.html": "/weatherapp-redux/index.html",
-    "precache-manifest.d6af2837ef1ecd006eb0b2606a4d0d6b.js": "/weatherapp-redux/precache-manifest.d6af2837ef1ecd006eb0b2606a4d0d6b.js",
+    "precache-manifest.10e196fb7ba9a7dea7158066c6b091fc.js": "/weatherapp-redux/precache-manifest.10e196fb7ba9a7dea7158066c6b091fc.js",
     "service-worker.js": "/weatherapp-redux/service-worker.js",
-    "static/css/main.6f7b4e3e.chunk.css.map": "/weatherapp-redux/static/css/main.6f7b4e3e.chunk.css.map",
+    "static/css/main.8822f6f7.chunk.css.map": "/weatherapp-redux/static/css/main.8822f6f7.chunk.css.map",
     "static/media/App.css": "/weatherapp-redux/static/media/cloud.cea9c901.png"
   }
 }
