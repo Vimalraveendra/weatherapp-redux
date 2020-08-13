@@ -2,7 +2,6 @@
   "name": "weatherapp-redux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Vimalraveendra.github.io/weatherapp-redux/",
   "dependencies": {
     "dot-prop": "^5.2.0",
     "elliptic": "^6.5.3",
@@ -13,13 +12,12 @@
     "react-scripts": "3.1.1",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "serialize-javascript": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
