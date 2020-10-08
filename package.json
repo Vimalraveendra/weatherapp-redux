@@ -13,12 +13,16 @@
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "serialize-javascript": "^4.0.0"
+    "serialize-javascript": "^4.0.0",
+    "node-forge": "^0.10.0",
+    "yargs-parser": "^13.1.2",
+    "http-proxy": "^1.18.1",
+    "handlebars": "^4.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
