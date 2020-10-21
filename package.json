@@ -2,6 +2,7 @@
   "name": "weatherapp-redux",
   "version": "0.1.0",
   "private": true,
+  
   "dependencies": {
     "dot-prop": "^5.2.0",
     "elliptic": "^6.5.3",
@@ -17,12 +18,14 @@
     "node-forge": "^0.10.0",
     "yargs-parser": "^13.1.2",
     "http-proxy": "^1.18.1",
-    "handlebars": "^4.5.3"
+    "handlebars": "^4.5.3",
+    "object-path": "^0.11.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
