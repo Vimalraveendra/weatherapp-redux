@@ -5,7 +5,7 @@
   "homepage": "https://Vimalraveendra.github.io/weatherapp-redux/",
   "dependencies": {
     "dot-prop": "^5.2.0",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "gh-pages": "^2.1.1",
     "handlebars": "^4.5.3",
     "http-proxy": "^1.18.1",
@@ -19,7 +19,15 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "serialize-javascript": "^4.0.0",
+<<<<<<< HEAD
     "yargs-parser": "^13.1.2"
+=======
+    "node-forge": "^0.10.0",
+    "yargs-parser": "^13.1.2",
+    "http-proxy": "^1.18.1",
+    "handlebars": "^4.7.7",
+    "object-path": "^0.11.6"
+>>>>>>> 732ca12671f91223197f561c46e53d903e0c1403
   },
   "scripts": {
     "start": "react-scripts start",
