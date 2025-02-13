@@ -1,7 +1,7 @@
 import {
   REQUEST_WEATHER_PENDING,
   REQUEST_WEATHER_SUCCESS,
-  REQUEST_WEATHER_FAILED
+  REQUEST_WEATHER_FAILED,
 } from "../Constants/Constants";
 
 const initialState = {
@@ -11,7 +11,7 @@ const initialState = {
   country: "",
   description: "",
   error: "",
-  isPending: false
+  isPending: false,
 };
 
 export const requestWeather = (state = initialState, action = {}) => {
@@ -19,24 +19,24 @@ export const requestWeather = (state = initialState, action = {}) => {
     case REQUEST_WEATHER_PENDING:
       return {
         ...state,
-        isPending: true
+        isPending: true,
       };
 
     case REQUEST_WEATHER_SUCCESS:
       return {
         ...state,
         isPending: false,
-        temperature: action.payload.main.temp,
-        humidity: action.payload.main.humidity,
-        city: action.payload.name,
-        country: action.payload.sys.country,
-        description: action.payload.weather[0].description
+        temperature: action.payload.current.temperature,
+        humidity: action.payload.current.humidity,
+        city: action.payload.location.name,
+        country: action.payload.location.country,
+        description: action.payload.current.weather_descriptions[0],
       };
     case REQUEST_WEATHER_FAILED:
       return {
         ...state,
         isPending: false,
-        error: "Sorry! Please Enter a valid city and country"
+        error: "Sorry! Please Enter a valid city and country",
       };
     default:
       return state;
