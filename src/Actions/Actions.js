@@ -2,7 +2,12 @@ import {
   REQUEST_WEATHER_PENDING,
   REQUEST_WEATHER_SUCCESS,
   REQUEST_WEATHER_FAILED,
+  CLEAR_WEATHER_FORM,
 } from "../Constants/Constants";
+
+export const clearWeather = () => ({
+  type: CLEAR_WEATHER_FORM,
+});
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 export const setWeather = (city, country) => (dispatch) => {
