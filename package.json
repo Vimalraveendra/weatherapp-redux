@@ -19,7 +19,7 @@
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "serialize-javascript": "^4.0.0",
+    "serialize-javascript": "^6.0.2",
     "set-value": " ^=4.0.1",
     "yargs-parser": "^13.1.2"
   },
