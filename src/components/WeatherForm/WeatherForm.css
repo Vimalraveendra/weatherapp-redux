@@ -19,12 +19,12 @@ input[type="text"] {
 /* button */
 
 .formSearch-button {
-  border: solid 2px #9b344e;
-  background: #9b344e;
-  padding: 0.4rem 0.6rem;
+  border: solid 2px #ff8235;
+  background: #ff8235;;
+  padding: 0.6rem ;
   margin: 0.6rem;
   border-radius: 3px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
   outline: none;
   color: #fff;
@@ -36,6 +36,6 @@ input[type="text"] {
   .formSearch-button {
     margin-top: 5px;
     width: 30vw;
-    font-size: 0.8rem;
+   
   }
 }

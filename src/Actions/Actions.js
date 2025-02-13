@@ -1,15 +1,19 @@
-
 import {
-	REQUEST_WEATHER_PENDING,
-	REQUEST_WEATHER_SUCCESS,
-	REQUEST_WEATHER_FAILED
-} from '../Constants/Constants';
+  REQUEST_WEATHER_PENDING,
+  REQUEST_WEATHER_SUCCESS,
+  REQUEST_WEATHER_FAILED,
+} from "../Constants/Constants";
 
+const API_KEY = process.env.REACT_APP_API_KEY;
+export const setWeather = (city, country) => (dispatch) => {
+  dispatch({ type: REQUEST_WEATHER_PENDING });
 
-export const setWeather=(API_KEY,city,country)=>dispatch=>{
-		dispatch({type:REQUEST_WEATHER_PENDING})
-		fetch(`https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`)
-		.then(response=> response.json())
-		.then(data=>dispatch({type:REQUEST_WEATHER_SUCCESS,payload:data}))
-		.catch(error=>dispatch({type:REQUEST_WEATHER_FAILED,payload:error}))
-	}
+  fetch(
+    `http://api.weatherstack.com/current?access_key=${API_KEY}&query=${city}`
+  )
+    .then((response) => response.json())
+    .then((data) => dispatch({ type: REQUEST_WEATHER_SUCCESS, payload: data }))
+    .catch((error) =>
+      dispatch({ type: REQUEST_WEATHER_FAILED, payload: error })
+    );
+};
