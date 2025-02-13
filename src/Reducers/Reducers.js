@@ -2,6 +2,7 @@ import {
   REQUEST_WEATHER_PENDING,
   REQUEST_WEATHER_SUCCESS,
   REQUEST_WEATHER_FAILED,
+  CLEAR_WEATHER_FORM,
 } from "../Constants/Constants";
 
 const initialState = {
@@ -15,6 +16,7 @@ const initialState = {
 };
 
 export const requestWeather = (state = initialState, action = {}) => {
+  console.log("action", action);
   switch (action.type) {
     case REQUEST_WEATHER_PENDING:
       return {
@@ -37,6 +39,15 @@ export const requestWeather = (state = initialState, action = {}) => {
         ...state,
         isPending: false,
         error: "Sorry! Please Enter a valid city and country",
+      };
+    case CLEAR_WEATHER_FORM:
+      return {
+        ...state,
+        temperature: "",
+        humidity: "",
+        city: "",
+        country: "",
+        description: "",
       };
     default:
       return state;
