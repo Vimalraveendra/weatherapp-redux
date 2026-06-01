@@ -1,6 +1,6 @@
-import {createSlice, PayloadAction} from '@reduxjs/toolkit';
+import {createSlice} from '@reduxjs/toolkit';
 import {WeatherState} from './weatherTypes';
-import {loadWeather} from './weatherThunk';
+import {loadWeather} from './weatherThunks';
 
 const initialState: WeatherState = {
   isLoading: false,
@@ -36,3 +36,6 @@ export const weatherSlice = createSlice({
       });
   },
 });
+
+export const {clearWeatherData, clearError} = weatherSlice.actions;
+export default weatherSlice.reducer;
