@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://Vimalraveendra.github.io/weatherapp-redux/",
   "dependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.1",
+    "axios": "^1.16.1",
     "dot-prop": "^5.2.0",
     "elliptic": "^6.5.3",
     "gh-pages": "^2.1.1",
@@ -21,6 +24,7 @@
     "redux-thunk": "^2.3.0",
     "serialize-javascript": "^4.0.0",
     "set-value": " ^=4.0.1",
+    "typescript": "^4.9.5",
     "yargs-parser": "^13.1.2"
   },
   "scripts": {
@@ -45,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^12.1.5",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3"
   }
 }
