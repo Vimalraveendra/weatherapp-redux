@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Vimalraveendra.github.io/weatherapp-redux/",
   "dependencies": {
+    "@reduxjs/toolkit": "^2.12.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.9.1",
     "axios": "^1.16.1",
