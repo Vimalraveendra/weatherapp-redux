@@ -128,3 +128,11 @@ code {
    color: var(--color-white);
   font-size: var(--space-5);
 }
+
+@media only screen and (max-width: 498px) {
+   .btn-group{
+   flex-direction: column;
+   gap: var(--space-2);
+   margin-bottom: var(--space-2);
+  }
+}

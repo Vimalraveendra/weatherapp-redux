@@ -12,3 +12,8 @@
   color: var(--color-info-dark);
 }
 
+@media only screen and (max-width: 768px) {
+  .title,.subtitle {
+    font-size: var(--space-6);
+  }
+}
