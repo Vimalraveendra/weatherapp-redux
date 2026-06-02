@@ -3,23 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./containers/App";
 import * as serviceWorker from "./serviceWorker";
-import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
-import { requestWeather } from "./Reducers/Reducers";
-import logger from "redux-logger";
-import thunkMiddleware from "redux-thunk";
-
-const middlewares = [thunkMiddleware];
-if (process.env.NODE_ENV === "development") {
-  middlewares.push(logger);
-}
-const store = createStore(requestWeather, applyMiddleware(...middlewares));
+import { store } from "./store/store";
 
 ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById("root")
+  document.getElementById("root"),
 );
 
 // If you want your app to work offline and load faster, you can change

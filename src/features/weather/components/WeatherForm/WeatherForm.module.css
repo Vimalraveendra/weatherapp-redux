@@ -9,3 +9,10 @@
   gap: var(--space-3);
   flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 498px) {
+  .form__group {
+   flex-direction: column;
+   gap: var(--space-2);
+  }
+}
