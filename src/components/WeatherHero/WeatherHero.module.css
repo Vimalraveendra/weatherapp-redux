@@ -1,0 +1,14 @@
+
+.title{
+	font-size: var(--space-9 );
+	letter-spacing: 1.5px;
+	font-family: var(--font-title);
+}
+.subtitle{
+  font-family:var(--font-subtitle);
+  font-weight: var(--font-weight-light);
+  font-size: var(--space-5);
+  font-style: var(--font-style-italic);
+  color: var(--color-info-dark);
+}
+
