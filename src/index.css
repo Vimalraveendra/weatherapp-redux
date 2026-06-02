@@ -86,3 +86,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.btn-group{
+  margin-top: var(--space-4);
+   display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.btn{
+  flex:1;
+  border: solid 2px var(--color-success);
+  background: var(--color-success);
+  padding: var(--space-3);
+  margin:var(--space-3);
+  border-radius: var(--space-1);
+  font-size: var(--space-4);
+  font-weight: bold;
+  outline: none;
+  color: var(--color-white);
+  cursor: pointer;
+}
+/* button */
+.btn--clear{
+  border: solid 2px var(--color-primary);
+  background: var(--color-primary);
+}
+
+/* input */
+.input {
+  flex:1;
+  background-color: transparent;
+  border: var(--space-0);
+  border-bottom: solid 2px var(--color-border-input);
+  margin: var(--space-3);
+  padding: var(--space-3);
+  outline: none;
+  text-align: center;
+  text-transform: capitalize;
+   color: var(--color-white);
+  font-size: var(--space-5);
+}
