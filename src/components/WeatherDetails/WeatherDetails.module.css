@@ -1,0 +1,18 @@
+
+.weather__info{
+  font-size: var(--space-5);
+  font-weight: var(--font-weight-light);
+}
+
+.weather__info>p{
+	color:var(--color-info);
+	border-bottom: solid 2px rgba(255,255,255,0.09);
+	padding: var(--space-2) var(--space-0);
+	font-weight: var(--font-weight-regular);
+}
+
+.weather__info>p>span{
+	color: var(--color-white);
+	font-weight: var(--font-weight-light);
+	margin: var(--space-3);
+}
