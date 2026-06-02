@@ -1,0 +1,13 @@
+.status__loading{
+  color: var(--color-white);
+  font-size: var(--space-5);
+  font-weight: var(--font-weight-medium);
+  text-align: center;
+}
+.status__error{
+  color: var(--color-danger);
+  font-size: var(--space-5);
+  font-weight: var(--font-weight-medium);
+  text-align: center;
+  font-family: var(--font-subtitle);
+} 
