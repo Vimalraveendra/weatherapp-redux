@@ -12,7 +12,7 @@ const WeatherForm = () => {
   const [city, setCity] = useState("");
   const [country,setCountry]= useState("")
 
-  const getWeatherApi = (event: React.SubmitEvent<HTMLFormElement>) => {
+  const getWeatherApi = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     dispatch(loadWeather({city,country}))
   };
@@ -39,6 +39,7 @@ const WeatherForm = () => {
               type="text"
               name="city"
               placeholder="City"
+              aria-label="City"
               className="input"
               value={city}
               onChange={handleChange}
@@ -49,6 +50,7 @@ const WeatherForm = () => {
               name="country"
               value={country}
               placeholder="Country"
+              aria-label="Country"
               className="input"
               onChange={handleChange}
               autoComplete="off"
