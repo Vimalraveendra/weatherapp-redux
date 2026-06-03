@@ -5,28 +5,19 @@
   "homepage": "https://Vimalraveendra.github.io/weatherapp-redux/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",
+    "@testing-library/react": "^16.3.2",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.9.1",
     "axios": "^1.16.1",
-    "dot-prop": "^5.2.0",
-    "elliptic": "^6.5.3",
     "gh-pages": "^2.1.1",
-    "handlebars": "^4.5.3",
-    "http-proxy": "^1.18.1",
-    "immer": "^9.0.6",
-    "node-forge": "^1.2.1",
-    "object-path": "^0.11.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-redux": "^7.1.1",
-    "react-scripts": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-scripts": "5.0.1",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "serialize-javascript": "^4.0.0",
-    "set-value": " ^=4.0.1",
-    "typescript": "^4.9.5",
-    "yargs-parser": "^13.1.2"
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -54,10 +45,9 @@
   "devDependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^14.6.1",
-    "@types/react": "^19.2.16",
-    "@types/react-dom": "^19.2.3",
+    "@types/react": "^18.3.30",
+    "@types/react-dom": "^18.3.7",
     "msw": "^1.3.5"
   }
 }
