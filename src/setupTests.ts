@@ -1,4 +1,4 @@
-import "@testing-library/dom";
+import '@testing-library/jest-dom';
 import {server} from "./mocks/server";
 import {cleanup} from "@testing-library/react";
 
